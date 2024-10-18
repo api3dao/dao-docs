@@ -1,0 +1,35 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:base"],
+  "packageRules": [
+    {
+      "matchPackageNames": ["node"],
+      "enabled": false
+    },
+    {
+      "matchPackageNames": ["vitepress"],
+      "groupName": "vitepress"
+    },
+    {
+      "matchDepTypes": ["devDependencies"],
+      "excludePackageNames": ["vitepress"],
+      "matchUpdateTypes": ["patch", "minor"],
+      "schedule": ["before 4am on Monday"],
+      "groupName": "non-major-dev-dependencies"
+    },
+    {
+      "matchDepTypes": ["dependencies"],
+      "excludePackageNames": ["vitepress"],
+      "matchUpdateTypes": ["patch", "minor"],
+      "schedule": ["before 4am on Monday"],
+      "groupName": "non-major-dependencies"
+    }
+  ],
+  "rangeStrategy": "bump",
+  "lockFileMaintenance": {
+    "enabled": false
+  },
+  "reviewers": ["dcroote", "wkande"],
+  "minimumReleaseAge": "5 days",
+  "dependencyDashboard": false
+}

@@ -1,0 +1,15 @@
+/.DS_Store/
+.DS_Store
+node_modules/
+
+docs/.vitepress/cache/
+docs/.vitepress/dist/
+docs/.vitepress/.temp
+.firebase/
+
+/indexes/content-files/
+
+yarn-error.log
+package-lock.json
+firebase-debug.log
+libs/myGitHubToken.json
