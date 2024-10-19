@@ -6,7 +6,7 @@ outline: deep
 
 <PageHeader/>
 
-# {{$frontmatter.title}}
+# API3 DAO
 
 API3 delegates much of its governance to the vote of a Decentralized Autonomous
 Organization (DAO). API3 is a collaborative effort to build, manage and monetize
