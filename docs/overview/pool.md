@@ -85,9 +85,9 @@ inflationary rewards and exposes you to the risk of service coverage claims.
 
 #### Benefits
 
-- Generates [inflationary rewards](/overview/rewards.md) by
-  decreasing the circulating supply of API3 tokens through revenue burn from
-  service coverage fees.
+- Generates [inflationary rewards](/overview/rewards.md) by decreasing the
+  circulating supply of API3 tokens through revenue burn from service coverage
+  fees.
 - Improved token inflation protection compared to unstaked tokens.
 - Voting privileges on DAO proposals.
 
@@ -107,21 +107,20 @@ coverage claims.
 The collateral utility has the participants share the DAO's operational risk and
 incentivizes them to minimize it.
 
-If staking tokens only yielded inflationary
-[rewards](/overview/rewards.md), the sole governance incentive would
-be to maximize the revenue. This would be done by increasing the number of dAPI
-users aggressively, and the amount that is secured by the dAPIs with it. Doing
-so puts excessive pressure on a dAPI which is more likely to malfunction due to
-an attack. Therefore, this is not a sustainable governance strategy for
-decentralized data feeds.
+If staking tokens only yielded inflationary [rewards](/overview/rewards.md), the
+sole governance incentive would be to maximize the revenue. This would be done
+by increasing the number of dAPI users aggressively, and the amount that is
+secured by the dAPIs with it. Doing so puts excessive pressure on a dAPI which
+is more likely to malfunction due to an attack. Therefore, this is not a
+sustainable governance strategy for decentralized data feeds.
 
 Exposing the governing parties to the risk would align their incentives with
 that of the DAO. The governing parties need to be penalized when a dAPI
 malfunction occurs using an onchain service coverage that provides dAPI users
-with quantifiable and trustless security guarantees. Service Coverage uses staked tokens of the DAO
-pool as collateral, which means that when a dAPI malfunction is confirmed
-through the dispute resolution protocol, user damages will be covered from the
-pool's staked tokens.
+with quantifiable and trustless security guarantees. Service Coverage uses
+staked tokens of the DAO pool as collateral, which means that when a dAPI
+malfunction is confirmed through the dispute resolution protocol, user damages
+will be covered from the pool's staked tokens.
 
 See <a href="/api3-whitepaper-v1.0.3.pdf#page=27" target="_blank">Section 5.4.2,
 _Collateral_</a>, of the API3 whitepaper.
@@ -159,9 +158,9 @@ clients. API3 follows the same scheme for dAPIs.
 
 To gain access to a dAPI, a dApp will pay a recurring subscription fee, which
 may be fixed or customized for the dApp based on a specific use case. These
-prices will be determined by the respective team. The
-payment can be made in any cryptocurrency, which will be received by the DAO in
-API3 tokens through a liquidity pool-based decentralized exchange.
+prices will be determined by the respective team. The payment can be made in any
+cryptocurrency, which will be received by the DAO in API3 tokens through a
+liquidity pool-based decentralized exchange.
 
 ### API provider compensation
 

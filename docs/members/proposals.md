@@ -15,17 +15,16 @@ To create a proposal, you must not have created a proposal in the last seven
 days and you must hold at least 0.1% of the total staked tokens in the pool.
 This required percentage, as well as other DAO parameters, can be adjusted by
 the DAO as described in
-[Dashboard Attributes](/technical/dashboard-attributes.md) upon
-acceptance using a proposal. To view the percentage of staked tokens in the pool
-for an address, visit the
-[DAO Tracker wallets page](https://tracker.api3.org/wallets).
+[Dashboard Attributes](/technical/dashboard-attributes.md) upon acceptance using
+a proposal. To view the percentage of staked tokens in the pool for an address,
+visit the [DAO Tracker wallets page](https://tracker.api3.org/wallets).
 
 You can vote on all proposals regardless of the percentage of staked tokens in
-the pool you own. See [How to Vote](/members/voting.md) for
-instructions. Alternatively, you can delegate your voting power to someone else.
-See the [delegation pitch section](https://forum.api3.org/c/delegation-pitch/7)
-of the API3 forum for posts by community members offering to act as delegates or
-to post your own delegate pitch.
+the pool you own. See [How to Vote](/members/voting.md) for instructions.
+Alternatively, you can delegate your voting power to someone else. See the
+[delegation pitch section](https://forum.api3.org/c/delegation-pitch/7) of the
+API3 forum for posts by community members offering to act as delegates or to
+post your own delegate pitch.
 
 <!----- Proposals and History ----->
 
@@ -33,8 +32,7 @@ to post your own delegate pitch.
 
 The **Governance** page displays a list of active proposals and the **History**
 page displays proposals that have been executed or rejected. Watch the
-[Deposit and Withdraw](/members/videos.md#proposals-and-history)
-video.
+[Deposit and Withdraw](/members/videos.md#proposals-and-history) video.
 
 1. Navigate to the **Governance** page.
 
@@ -93,8 +91,7 @@ expected, for your proposal to succeed.
 For public addresses use the checksum version of the address where some
 alphabetical characters are capitalized. Copy your address to etherscan to get
 its checksum value. ENS names are allowed. See the
-[Using ENS Names](/members/proposals.md#using-ens-names) section
-below.
+[Using ENS Names](/members/proposals.md#using-ens-names) section below.
 
 :::
 
@@ -107,8 +104,7 @@ tokens use. Add 6 zeros after the amount you are asking for.
 
 ### Create
 
-Watch the
-[Create a Proposal](/members/videos.md#proposals-and-history) video.
+Watch the [Create a Proposal](/members/videos.md#proposals-and-history) video.
 To create a new proposal using the DAO dashboard:
 
 1. Click the **New Proposal** button on the Governance page.
