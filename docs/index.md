@@ -13,15 +13,15 @@ Organization (DAO). API3 is a collaborative effort to build, manage and monetize
 dAPIs at scale. To achieve delegated governance and apportion grants in a fully
 decentralized way, the incentives and processes of the participants are
 reconciled through the governance, security, and
-[value capture utilities](/overview/pool.md#token-utilities) of
-the API3 token and its powers in the API3 DAO.
+[value capture utilities](/overview/pool.md#token-utilities) of the API3 token
+and its powers in the API3 DAO.
 
 The API3 project has a completely open, decentralized and direct governance
 model. Any API3 token holder can stake in the DAO pool and obtain direct voting
 abilities in the DAO smart contract and thus participate in many aspects of the
 governance of the project directly. In addition, stakers receive immutably-coded
-[inflationary rewards](/overview/rewards.md) and any additional
-benefits that the DAO may decide on in the future. 
+[inflationary rewards](/overview/rewards.md) and any additional benefits that
+the DAO may decide on in the future.
 
 The DAO votes on high-level matters such as staking incentives and
 collateralization (parameters of the DAO smart contract itself), as well as

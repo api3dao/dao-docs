@@ -11,8 +11,8 @@ outline: deep
 The DAO dashboard videos have been incorporated the
 [Staking Tokens](/members/staking.md),
 [Working with Proposals](/members/proposals.md) and
-[How to Vote](/members/voting.md) pages. This page allows quick
-access to all available dashboard videos.
+[How to Vote](/members/voting.md) pages. This page allows quick access to all
+available dashboard videos.
 
 ## Staking Page Overview
 
