@@ -1,5 +1,5 @@
 export default {
-  title: 'Documentation',
+  title: 'DAO Documentation',
   description: 'API3 technical documentation',
   markdown: {
     lineNumbers: true,
@@ -70,9 +70,9 @@ export default {
       light: '/img/API3-Active.png',
       dark: '/img/api3-inactive.png',
     },
-    siteTitle: 'Documentation',
+    siteTitle: 'DAO Documentation',
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/api3dao/vitepress-docs' },
+      { icon: 'github', link: 'https://github.com/api3dao/dao-docs' },
       {
         icon: 'discord',
         link: 'https://discord.com/channels/758003776174030948/765618225144266793',
@@ -83,22 +83,15 @@ export default {
       copyright: 'Copyright © 2019-present API3',
     },
     sidebar: {
-      '/dapis/': require('../dapis/sidebar.js'),
-      '/oev/': require('../oev/sidebar.js'),
-      '/dev/': require('../dev/sidebar.js'),
+      '/': require('../sidebar.js'),
     },
-    nav: nav(),
+    //nav: nav(),
   },
 };
 
-function nav() {
+/*function nav() {
   return [
     { text: 'Home', link: '/' },
-    {
-      text: 'dAPIs',
-      link: '/dapis/introduction/',
-      activeMatch: '/dapis/.*',
-    },
-    { text: 'OEV', link: '/oev/', activeMatch: '/oev/.*' },
+    { text: 'DAO', link: '/dao/', activeMatch: '/dao/.*' },
   ];
-}
+}*/

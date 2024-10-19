@@ -1,9 +1,6 @@
 # DAO docs preview
 
-This technical documentation is a fork of the official
-[API3 technical documentation](https://docs.api3.org). The intent is to develop
-dao-related documentation here privately then merge into the official repo when
-ready.
+Documentation for dao-related matters.
 
 ## Instructions
 
