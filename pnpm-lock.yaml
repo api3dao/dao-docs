@@ -9,7 +9,7 @@ importers:
   .:
     devDependencies:
       '@api3/chains':
-        specifier: ^10.2.4
+        specifier: ^10.4.0
         version: 10.4.0
       axios:
         specifier: ^1.7.7
@@ -18,7 +18,7 @@ importers:
         specifier: ^1.4.0
         version: 1.4.0
       ethers:
-        specifier: ^6.13.3
+        specifier: ^6.13.4
         version: 6.13.4
       file:
         specifier: ^0.2.2
