@@ -36,7 +36,7 @@ In order for your proposal to succeed, a few steps are highly recommended.
 2. Create an
    [official proposal](https://forum.api3.org/t/api3-dao-example-proposal-template/52)
    post on the API3 forum. This should contain a link to the
-   [proposal description on IPFS](https://docs.api3.org/guides/dao-members/proposals.html#using-ipfs-for-proposals).
+   [proposal description on IPFS](https://docs.api3.org/guides/dao-members/proposals.md#using-ipfs-for-proposals).
 3. After receiving feedback from the above steps, create a formal proposal using
    the DAO dashboard as described below.
 

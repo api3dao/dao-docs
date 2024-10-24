@@ -25,7 +25,7 @@ need to stake API3 tokens in the DAO’s staking pool.
 ## Rewards
 
 Through staking API3 tokens in the pool, you gain access to weekly
-[rewards](https://docs.api3.org/explore/dao-members/rewards.html) (unlocked
+[rewards](https://docs.api3.org/explore/dao-members/rewards.md) (unlocked
 after one year) and are also granted voting rights on active DAO proposals and
 rewards.
 
@@ -81,7 +81,7 @@ browser. Be sure your wallet is connected to the Ethereum mainnet.
 (staking page overview video)
 
 Staking API3 tokens in the
-[staking pool](https://docs.api3.org/explore/dao-members/dao-pool.html) makes
+[staking pool](https://docs.api3.org/explore/dao-members/dao-pool.md) makes
 you eligible for rewards and governance rights.
 
 The DAO uses an adaptive reward system to incentivize staking. Rewards will
@@ -177,7 +177,7 @@ In order for your proposal to succeed, a few steps are highly recommended.
 2. Create an
    [official proposal](https://forum.api3.org/t/api3-dao-example-proposal-template/52)
    post on the API3 forum. This should contain a link to the
-   [proposal description on IPFS](https://docs.api3.org/guides/dao-members/proposals.html#using-ipfs-for-proposals).
+   [proposal description on IPFS](https://docs.api3.org/guides/dao-members/proposals.md#using-ipfs-for-proposals).
 3. After receiving feedback from the above steps, create a formal proposal using
    the DAO dashboard as described below.
 
@@ -434,7 +434,7 @@ contract for an understanding of the contract inheritance structure:
 
 ### Key Functions
 
-[​](https://docs.api3.org/reference/dao-members/pool.html#key-functions)Depositing,
+[​](https://docs.api3.org/reference/dao-members/pool.md#key-functions)Depositing,
 Staking, Unstaking and Withdrawing \
  \
 
@@ -642,7 +642,7 @@ appropriate function on the staking pool contract.
 The following parameters can be updated via DAO proposal by calling
 [StateUtils.sol](https://github.com/api3dao/api3-dao/tree/main/packages/pool/contracts)
 functions within the
-[Api3Pool contract](https://docs.api3.org/reference/dao-members/pool.html). For
+[Api3Pool contract](https://docs.api3.org/reference/dao-members/pool.md). For
 reference, percentage values are based on 10^18 = 100%.
 
 #### Key Functions

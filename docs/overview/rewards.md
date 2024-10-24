@@ -9,7 +9,7 @@ outline: deep
 # Rewards
 
 Through staking API3 tokens in the pool, you gain access to weekly
-[rewards](https://docs.api3.org/explore/dao-members/rewards.html) (unlocked
+[rewards](https://docs.api3.org/explore/dao-members/rewards.md) (unlocked
 after one year) and are also granted voting rights on active DAO proposals and
 rewards.
 
@@ -20,5 +20,5 @@ later, etc.) This 1 year-lock is the secret sauce to good decentralized
 governance, it essentially aligns the incentives of the stakers/governors with
 the ones of the DAO/project/token for a whole year.
 
-To read more about rewards, <span style="text-decoration:underline;">visit the
-Rewards Calculation and Distribution </span>section.
+To read more about rewards, visit the
+[Rewards Calculation and Distribution](../technical/distribution.md).
