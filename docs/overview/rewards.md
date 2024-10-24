@@ -8,9 +8,9 @@ outline: deep
 
 # Rewards
 
-Through staking API3 tokens in the pool, you gain access to weekly rewards (unlocked
-after one year) and are also granted voting rights on active DAO proposals and
-rewards.
+Through staking API3 tokens in the pool, you gain access to weekly rewards
+(unlocked after one year) and are also granted voting rights on active DAO
+proposals and rewards.
 
 Why one year? Since rewards get minted every week, you can think of this as a
 rolling unlock (the rewards you receive this week will get unlocked 1 year
