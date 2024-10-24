@@ -1,5 +1,5 @@
 ---
-title: Staking Tokens
+title: API3
 pageHeader: Members
 outline: deep
 ---
@@ -8,105 +8,73 @@ outline: deep
 
 # Staking Tokens
 
-Staking API3 tokens in the [DAO pool](/overview/pool.md) makes you eligible for
-rewards and governance rights.
+Staking API3 tokens in the
+[staking pool](https://docs.api3.org/explore/dao-members/dao-pool.html) makes
+you eligible for rewards and governance rights.
 
-<!----- Deposit and Withdraw ----->
+The DAO uses an adaptive reward system to incentivize staking. Rewards will
+increase to incentivize staking when the total staked is below the staking
+target, and decrease to reduce token emissions when the total staked is above
+the staking target. To see the current funding status, you can see the
+percentage of target met.
 
-## Deposit and Withdraw
+## 1. Deposit Tokens
 
-Before tokens can be staked you must deposit them in the DAO pool. Doing so will
-remove them from your wallet and place them into the DAO pool under the control
-of its smart contracts. Deposited tokens shown as WITHDRAWABLE can be removed
-from the DAO pool at any time and returned to your wallet. Watch the
-[Deposit and Withdraw](/members/videos.md#deposit-and-withdraw) video.
+Before tokens can be staked you must deposit them in the staking pool. Doing so
+will remove them from your wallet and place them into the staking pool under the
+control of its smart contracts. Your Balance reflects the amount of tokens you
+have deposited and not yet staked. Withdrawable (and unstaked) tokens can be
+removed from the staking pool at any time and returned to your wallet.
 
-Be sure your wallet is connected to a browser using mainnet, see
-[Preparing to use the Dashboard](/members/#preparing-to-use-the-dashboard).
+To deposit tokens, click the Deposit button. If this is your first time
+depositing, you’ll have to authorize the staking pool smart contract first by
+clicking Approve. Note that deposited tokens are not staked. They will not earn
+rewards or grant you governance rights.
 
-### Deposit
+You can only withdraw tokens that are not staked. The Balance section displays
+the maximum amount that can be withdrawn under “Withdrawable”. To withdraw
+tokens, click the Withdraw button. The tokens withdrawn are returned to your
+wallet.
 
-1. Click the **_Deposit_** button.
-   > If this is your first deposit you will need to authorize the DAO pool smart
-   > contract first. Use step #2 then step #3. Otherwise skip to step #3.
-2. (First time depositors) Enter the number of tokens to deposit and click the
-   **_Approve_** button. Give approval to your digital wallet to proceed.
-3. Enter the number of tokens to deposit and click the **_Deposit_** button.
-   > Note that deposited tokens are not staked. They will not earn rewards or
-   > grant you governance rights.
+<!-- deposit and withdraw video -->
+<Video src="https://www.youtube.com/embed/PdSE-SiUx3M"/>
 
----
+## 2. Stake Tokens
 
-### Withdraw
+To stake tokens, click the Stake button. The number of tokens available to stake
+depends on the number of tokens deposited and are available to withdraw as
+displayed in the Balance box as under “Withdrawable”.
 
-You can only withdraw tokens that are not staked as shown in the **Balance**
-box. The max amount that can be withdrawn is displayed as WITHDRAWABLE.
+<!-- stake and earn video -->
+<Video src="https://www.youtube.com/embed/DQMsgQvkg7k"/>
 
-1. Click the **_Withdraw_** link.
-2. Enter the number of tokens to withdraw (or select the **Max** link) and click
-   the **_Withdraw_** button.
-   > The tokens withdrawn are returned to your wallet.
+## 3. Claim Rewards
 
-<!----- Stake & Earn ----->
-
-## Stake & Earn
-
-When you stake your deposited tokens you will be granted the right to create and
-vote on proposals. In addition you will earn rewards. Rewards are updated every
-seven days and are proportional to the number of tokens you have staked in the
-DAO pool (as a percentage of the DAO pool). Watch the
-[Stake and Earn](/members/videos.md#stake-and-earn) video.
-
-1. Click the **_Stake_** button.
-   > The number of tokens available to stake depends on the number of tokens
-   > deposited and are available to withdraw as displayed in the **Balance** box
-   > as WITHDRAWABLE.
-2. Enter the number of tokens to stake (or select the **Max** link) and click
-   the **_Stake_** button.
-
-The DAO uses an adaptive reward system to incentivize staking. Rewards are
-updated every seven days and are proportional to the amount of tokens that you
-have staked. Rewards will increase to incentivize staking when the pool runs low
-and decrease to reduce token emissions when the pool is well funded. To see the
-current funding status, you can see the percentage of target met which is
-calculated by the total amount staked divided by the staking target.
-
-## Unstake and Claim
-
-Unstake tokens and claims rewards. To incentivize governance responsibilities
-and protect the DAO's long term interest, rewards are locked for one year. You
-can unstake your tokens at any time but you can only claim rewards after the one
-year locking period ends. Note that unstaking will revoke your most recent
-weekly reward payment. To protect the DAO from proposal spam, unstaking is
-subject to a seven day waiting period. Watch the
-[Unstake and Claim](/members/videos.md#unstake-and-claim) video.
-
-1. Click the **_Initiate Unstake_** link.
-2. Enter the number of tokens to unstake (or select the **Max** link) and click
-   the **_Initiate Unstaking_** button.
-3. Confirm the transaction by clicking the **Initiate Unstaking** button in the
-   popup.
-
-After confirming the transaction, the interface will display the pending unstake
-and a count down timer in the **Pending** box. During this time the **Unstake &
-Withdraw** link and the **Unstake** button will be disabled.
-
-When the seven day waiting period is over, you are ready to complete the unstake
-process.
-
-- **Unstake & Withdraw** link: This option will immediately unstake your tokens
-  and deposit them into your digital wallet.
-
-OR
-
-- **Unstake** button: This option will unstake the tokens and place them into
-  the **Balance** box (as deposited tokens) on the dashboard. From here you can
-  use the **Withdraw** link to move the tokens to your digital wallet at any
-  time or stake them again.
-
-::: warning Seven day wait period
+You will not be able to withdraw your rewards for a year after receiving them.
+Since rewards get minted every week, you can think of this as a rolling unlock
+(the rewards you receive this week will get unlocked 1 year later, the rewards
+you will receive next week will get unlocked 1 year 1 week later, etc.) This 1
+year-lock is the secret sauce to good decentralized governance, it essentially
+aligns the incentives of the stakers/governors with the ones of the
+DAO/project/token for a whole year. Unstake tokens to claim your unlocked
+rewards. Note that unstaking will revoke your most recent weekly reward payment,
+and scheduling tokens to be unstaked stops earning rewards for those tokens.
 
 To protect the DAO from proposal spam, unstaking is subject to a seven day
-waiting period.
+waiting period. To initiate unstaking, click “Initiate Unstake”.
 
-:::
+After the unstaking has been initiated, the interface will display the pending
+amount of tokens that are being unstaked and a countdown timer. Tokens cannot be
+unstaked until the timer is complete.
+
+Once the seven day timer has run out, there are two ways to complete the
+process:
+
+1. **Unstake & Withdraw:** This option will immediately unstake your tokens and
+   deposit them into your wallet.
+2. **Unstake:** This option will unstake your tokens while keeping them
+   deposited in the DAO. From here you can use the Withdraw link to move the
+   tokens to your wallet at any time or stake them again.
+
+<!-- deposit and withdraw video -->
+<Video src="https://www.youtube.com/embed/__zhi8N2erI"/>

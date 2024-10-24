@@ -1,5 +1,5 @@
 ---
-title: Contracts
+title: API3
 pageHeader: Technical
 outline: deep
 ---
@@ -13,10 +13,6 @@ The core of the DAO is a set of smart contracts based on Aragon's
 can be found in the [api3-dao](https://github.com/api3dao/api3-dao/) GitHub
 repo, along with instructions for how to deploy a copy of the DAO. Below is a
 list of contract addresses.
-
-<p align="center" style="border-left:solid gray 1px;">
-  <img src="./assets/images/dao-contract-structure.png" width="700" />
-</p>
 
 | Name              | Mainnet Contract Addresses                                                                                                                                                            |
 | :---------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |

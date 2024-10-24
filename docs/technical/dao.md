@@ -1,5 +1,5 @@
 ---
-title: DAO (Api3Template.sol)
+title: API3
 pageHeader: Technical
 outline: deep
 ---

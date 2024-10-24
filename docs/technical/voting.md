@@ -1,5 +1,5 @@
 ---
-title: Voting (Api3Voting.sol)
+title: API3
 pageHeader: Technical
 outline: deep
 ---
@@ -29,7 +29,7 @@ contract code and the Aragon contracts it inherits from.
 
 - BaseTemplate
 
-## Key Functions
+## Signatures
 
 | Signature                                                                                                             | Description                                                                                       |
 | --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
