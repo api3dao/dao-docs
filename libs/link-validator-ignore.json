@@ -3,6 +3,5 @@
   "NOTE: The lib link-validator.js uses these as a 'contains' lookup.",
   "https://api3.eth/",
   "https://github.com/api3dao/api3-dao/",
-  "https://github.com/api3dao/dao-docs",
-  "https://github.com/api3dao/oev-docs"
+  "https://github.com/api3dao/dao-docs"
 ]
