@@ -73,7 +73,7 @@ module.exports = [
         link: '/technical/dashboard-attributes',
       },
       {
-        text: 'Reward Calculation And Distribution',
+        text: 'Reward calculation and distribution',
         link: '/technical/distribution',
       },
     ],

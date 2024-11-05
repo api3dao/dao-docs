@@ -6,7 +6,7 @@ outline: deep
 
 <PageHeader/>
 
-# Reward Calculation And Distribution
+# Reward calculation and distribution
 
 The staking reward is programmed to increase while the staked amount is below
 the staking target, and vice versa. There is no predetermined schedule.
