@@ -161,7 +161,7 @@ transfer(address,uint256);
     Add a comment to your post with a link to your newly created proposal. This
     will help encourage community members to vote.
 
-## Proposal Execution
+## Proposal execution
 
 A proposal is ready for execution if all of the following requirements have been
 met:

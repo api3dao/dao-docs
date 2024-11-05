@@ -32,7 +32,7 @@ contract for an understanding of the contract inheritance structure:
 
 The next sections discuss key signatures in the `Api3Pool.sol` contract.
 
-### Depositing, Staking, Unstaking and Withdrawing
+### Depositing, Staking, Unstaking, and Withdrawing
 
 | Signature                                         | Description                                                                                                                                                                                                                                                       |
 | ------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

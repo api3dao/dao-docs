@@ -18,7 +18,7 @@ target, and decrease to reduce token emissions when the total staked is above
 the staking target. To see the current funding status, you can see the
 percentage of target met.
 
-## 1. Deposit Tokens
+## 1. Deposit tokens
 
 <!-- deposit and withdraw video -->
 <Video src="https://www.youtube.com/embed/PdSE-SiUx3M"/>
@@ -39,7 +39,7 @@ the maximum amount that can be withdrawn under “Withdrawable”. To withdraw
 tokens, click the Withdraw button. The tokens withdrawn are returned to your
 wallet.
 
-## 2. Stake Tokens
+## 2. Stake tokens
 
 <!-- stake and earn video -->
 <Video src="https://www.youtube.com/embed/DQMsgQvkg7k"/>
@@ -48,7 +48,7 @@ To stake tokens, click the Stake button. The number of tokens available to stake
 depends on the number of tokens deposited and are available to withdraw as
 displayed in the Balance box as under “Withdrawable”.
 
-## 3. Claim Rewards
+## 3. Claim rewards
 
 <!-- deposit and withdraw video -->
 <Video src="https://www.youtube.com/embed/__zhi8N2erI"/>
