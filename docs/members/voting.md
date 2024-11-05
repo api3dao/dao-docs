@@ -8,6 +8,9 @@ outline: deep
 
 # Voting
 
+<!-- vote and delegate video -->
+<Video src="https://www.youtube.com/embed/K_EZFMjXUPA"/>
+
 Staking grants DAO members the ability to vote on proposals. Your voting power
 is calculated by the number of tokens you have staked divided by the total
 number of tokens staked at the time the proposal was made. To Vote, select a
@@ -23,6 +26,3 @@ When you delegate your vote to another user, only that person can vote for you.
 However, if the person you delegated to has also delegated to someone, your
 voting power is discarded. You can update your delegator after seven days have
 passed since your last delegation.
-
-<!-- vote and delegate video -->
-<Video src="https://www.youtube.com/embed/K_EZFMjXUPA"/>

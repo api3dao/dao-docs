@@ -43,7 +43,7 @@ module.exports = [
         link: '/members/proposals',
       },
       {
-        text: 'How to vote',
+        text: 'Voting',
         link: '/members/voting',
       },
     ],

@@ -20,6 +20,9 @@ percentage of target met.
 
 ## 1. Deposit Tokens
 
+<!-- deposit and withdraw video -->
+<Video src="https://www.youtube.com/embed/PdSE-SiUx3M"/>
+
 Before tokens can be staked you must deposit them in the staking pool. Doing so
 will remove them from your wallet and place them into the staking pool under the
 control of its smart contracts. Your Balance reflects the amount of tokens you
@@ -36,19 +39,19 @@ the maximum amount that can be withdrawn under “Withdrawable”. To withdraw
 tokens, click the Withdraw button. The tokens withdrawn are returned to your
 wallet.
 
-<!-- deposit and withdraw video -->
-<Video src="https://www.youtube.com/embed/PdSE-SiUx3M"/>
-
 ## 2. Stake Tokens
+
+<!-- stake and earn video -->
+<Video src="https://www.youtube.com/embed/DQMsgQvkg7k"/>
 
 To stake tokens, click the Stake button. The number of tokens available to stake
 depends on the number of tokens deposited and are available to withdraw as
 displayed in the Balance box as under “Withdrawable”.
 
-<!-- stake and earn video -->
-<Video src="https://www.youtube.com/embed/DQMsgQvkg7k"/>
-
 ## 3. Claim Rewards
+
+<!-- deposit and withdraw video -->
+<Video src="https://www.youtube.com/embed/__zhi8N2erI"/>
 
 You will not be able to withdraw your rewards for a year after receiving them.
 Since rewards get minted every week, you can think of this as a rolling unlock
@@ -75,6 +78,3 @@ process:
 2. **Unstake:** This option will unstake your tokens while keeping them
    deposited in the DAO. From here you can use the Withdraw link to move the
    tokens to your wallet at any time or stake them again.
-
-<!-- deposit and withdraw video -->
-<Video src="https://www.youtube.com/embed/__zhi8N2erI"/>

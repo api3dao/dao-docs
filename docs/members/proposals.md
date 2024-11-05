@@ -14,7 +14,7 @@ tokens in the pool gives you governance rights to create and vote on proposals.
 Use the Governance page to create proposals, browse active proposals, view the
 treasury, and delegate your votes.
 
-## Understanding proposals
+## Proposal creation
 
 <!-- proposals and history video -->
 <Video src="https://www.youtube.com/embed/k0XEkJtWAGk"/>
@@ -44,7 +44,7 @@ Proposals may be either primary or secondary. Primary proposals require an
 absolute majority vote to pass, while secondary proposals require 15% and a
 relative majority support.
 
-## Creating a proposal
+## Creating a formal proposal
 
 <!-- create a proposal video -->
 <br/>
@@ -93,8 +93,10 @@ relative majority support.
    mentioned above use the exact signature below, without spaces (leading or
    otherwise):
 
+<!-- The following prettier-ignore is important to prevent spaces in the parameters -->
+<!-- prettier-ignore -->
 ```js
-transfer(address, uint256);
+transfer(address,uint256);
 ```
 
 ::: danger Please note  
@@ -117,8 +119,10 @@ transfer(address, uint256);
    USDC contract to transfer the USDC to the desired wallet. The arguments would
    look like this:
 
+<!-- The following prettier-ignore is important to prevent spaces in the parameters -->
+<!-- prettier-ignore -->
    ```json
-   ["0xF4EB52Cf9D31a...d1663d78ddDEE9", "499999000000"]
+   ["0xF4EB52Cf9D31a...d1663d78ddDEE9","499999000000"]
    ```
 
 - The arguments must be provided in JSON array format where the values are
@@ -127,7 +131,7 @@ transfer(address, uint256);
   tokens use. Consequently, multiply the desired $USD by 10^6 to get the USDC
   amount to enter.
 
-  Note that since transfer(address,uint256) function transfers funds from the
+  Note that since `transfer(address,uint256)` function transfers funds from the
   sender to the specified address, the USDC is asked to be supplied from the
   Agent's balance.
 
@@ -144,8 +148,8 @@ transfer(address, uint256);
   details page, you will have to use the [ENS app](https://app.ens.domains/) to
   set a reverse record pointing to your ENS name (i.e., you need to have your
   raw address point to the ENS name). If your proposal will make a
-  transfer(address,uint256) call to an ERC20 token contract where the address is
-  the address of a multisig wallet, you can
+  `transfer(address,uint256)` call to an ERC20 token contract where the address
+  is the address of a multisig wallet, you can
   [set a reverse record with the multisig](https://medium.com/the-ethereum-name-service/you-can-now-manage-ens-names-with-gnosis-safe-9ddcb7e6c4ac)
   to your ENS name. See Parameters in
   [this proposal](https://api3.eth/#/history/secondary-31) for an example.

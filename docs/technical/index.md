@@ -14,6 +14,8 @@ can be found in the [api3-dao](https://github.com/api3dao/api3-dao/) GitHub
 repo, along with instructions for how to deploy a copy of the DAO. Below is a
 list of contract addresses.
 
+![dao-contracts-overview](/public/img/dao-contracts-overview.png)
+
 | Name              | Mainnet Contract Addresses                                                                                                                                                            |
 | :---------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | DAO Kernel        | [`0x593ea926ee9820a933488b6a288433c387d06dba`](https://etherscan.io/address/0x593ea926ee9820a933488b6a288433c387d06dba) <CopyIcon text="0x593ea926ee9820a933488b6a288433c387d06dba"/> |
