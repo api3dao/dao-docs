@@ -6,7 +6,7 @@ outline: deep
 
 <PageHeader/>
 
-# Contributors
+# DAO Contributors
 
 Contributors receive grants from the DAO and are often composed of hierarchical
 teams which manage, streamline, and secure the success of their deliverables to
