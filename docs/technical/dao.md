@@ -8,7 +8,7 @@ outline: deep
 
 # DAO (Api3Template.sol)
 
-The API3 DAO contract is the core DAO contract, and it serves a coordinating and
+The API3 DAO contract is the core DAO contract serving as a coordinating and
 setup role. It holds the admin role in API3's contracts including the DAO pool,
 and it delegates some of this responsibility to the DAO's other contracts (its
 voting apps and [Aragon Agents](https://aragon.org/agent)).
