@@ -1,5 +1,5 @@
 ---
-title: Pool (Api3Pool.sol)
+title: API3
 pageHeader: Technical
 
 outline: deep
@@ -28,7 +28,9 @@ contract for an understanding of the contract inheritance structure:
 - GetterUtils.sol
 - StateUtils.sol
 
-## Key Functions
+## Signatures
+
+The next sections discuss key signatures in the `Api3Pool.sol` contract.
 
 ### Depositing, Staking, Unstaking and Withdrawing
 

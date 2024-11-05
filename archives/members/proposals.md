@@ -111,12 +111,12 @@ To create a new proposal using the DAO dashboard:
 
 2. Select the **Proposal Type** on the proposal form.
 
-   > Proposals can be submitted to either the _Primary_ or _Secondary_ voting
-   > types. These two types have access to separate treasuries, have different
-   > voting settings, and have different permissions to change contract
-   > settings. For a technical breakdown of the different permissions granted to
-   > the DAO's proposal types (and corresponding Agents) see this
-   > [README](https://github.com/api3dao/api3-dao/blob/develop/packages/dao/README.md#permissions).
+   Proposals can be submitted to either the _Primary_ or _Secondary_ voting
+   types. These two types have access to separate treasuries, have different
+   voting settings, and have different permissions to change contract
+   settings. For a technical breakdown of the different permissions granted to
+   the DAO's proposal types (and corresponding Agents) see this
+   [README](https://github.com/api3dao/api3-dao/blob/develop/packages/dao/README.md#permissions).
 
 3. Enter a descriptive **Title**.
 
@@ -176,7 +176,7 @@ To create a new proposal using the DAO dashboard:
 
 9. When you are ready, click the **Create** button at the bottom of the page.
 
-   > The proposal is then added to the proposal list and can be voted on.
+> The proposal is then added to the proposal list and can be voted on.
 
 10. Return to the [API3 forum](https://forum.api3.org/c/official-proposals/5)
     and add a comment to your post with a link to your newly created proposal.

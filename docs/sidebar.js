@@ -4,16 +4,20 @@ module.exports = [
     collapsed: false,
     items: [
       {
-        text: 'API3 DAO',
+        text: 'What is the API3 DAO?',
         link: '/',
       },
       {
-        text: 'The DAO Pool',
-        link: '/overview/pool',
+        text: 'Governance',
+        link: '/overview/governance',
       },
       {
-        text: 'Inflationary rewards',
+        text: 'Rewards',
         link: '/overview/rewards',
+      },
+      {
+        text: 'DAO Contributors',
+        link: '/overview/contributors',
       },
       {
         text: 'DAO Tracker',
@@ -23,11 +27,11 @@ module.exports = [
   },
 
   {
-    text: 'Members',
+    text: 'DAO Members',
     collapsed: false,
     items: [
       {
-        text: 'DAO Dashboard',
+        text: 'Using the DAO Dashboard',
         link: '/members/',
       },
       {
@@ -39,12 +43,8 @@ module.exports = [
         link: '/members/proposals',
       },
       {
-        text: 'How to vote',
+        text: 'Voting',
         link: '/members/voting',
-      },
-      {
-        text: 'Videos',
-        link: '/members/videos',
       },
     ],
   },
@@ -71,6 +71,10 @@ module.exports = [
       {
         text: 'Dashboard attributes',
         link: '/technical/dashboard-attributes',
+      },
+      {
+        text: 'Reward Calculation And Distribution',
+        link: '/technical/distribution',
       },
     ],
   },

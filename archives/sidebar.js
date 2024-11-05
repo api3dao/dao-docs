@@ -23,7 +23,7 @@ module.exports = [
   },
 
   {
-    text: 'Members',
+    text: 'DAO Members',
     collapsed: false,
     items: [
       {

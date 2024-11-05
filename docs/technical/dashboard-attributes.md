@@ -1,5 +1,5 @@
 ---
-title: Dashboard attributes
+title: API3
 pageHeader: Technical
 outline: deep
 ---
@@ -16,6 +16,8 @@ The following parameters can be updated via DAO proposal by calling
 [StateUtils.sol](https://github.com/api3dao/api3-dao/tree/main/packages/pool/contracts)
 functions within the [API3 Pool contract](/technical/pool.md). For reference,
 percentage values are based on `10^18 = 100%`.
+
+## Signatures
 
 | Parameter Name               | Initial Value    | Function Signature                                                       | Description                                                                                      |
 | ---------------------------- | ---------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |

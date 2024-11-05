@@ -1,5 +1,5 @@
 ---
-title: Voting (Api3Voting.sol)
+title: API3
 pageHeader: Technical
 outline: deep
 ---
@@ -29,23 +29,10 @@ contract code and the Aragon contracts it inherits from.
 
 - BaseTemplate
 
-## Key Functions
+## Signatures
 
 | Signature                                                                                                             | Description                                                                                       |
 | --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
 | `newVote(bytes _executionScript, string _metadata, bool _castVote, bool _executesIfDecided) returns (uint256 voteId)` | Create a new proposal in the DAO. Requires a minimum percentage of voting power (currently 0.1%). |
 | `vote(uint256 _voteId, bool _supports, bool _executesIfDecided)`                                                      | Vote yes or no on an existing proposal.                                                           |
 | `executeVote(uint256 _voteId)`                                                                                        | Execute a proposal, if it is ready for execution.                                                 |
-
-A proposal is ready for execution if:
-
-> 1. the proposal hasn't already been executed, and
-> 2. greater than 50% of all voting power has voted "yes" on the proposal,
-
-OR
-
-> 1. the proposal hasn't already been executed, and
-> 2. the proposal's voting period has ended, and
-> 3. the total "yes" vote exceeds the "no" vote, and
-> 4. at least 50% (for Primary voting app proposals) or 15% (for Secondary
->    voting app proposals) of all voting power has voted "yes" on the proposal.
