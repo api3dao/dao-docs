@@ -8,9 +8,8 @@ outline: deep
 
 # Staking Tokens
 
-Staking API3 tokens in the
-[staking pool](https://docs.api3.org/explore/dao-members/dao-pool.html) makes
-you eligible for rewards and governance rights.
+Staking API3 tokens in the staking pool makes you eligible for rewards and
+governance rights.
 
 The DAO uses an adaptive reward system to incentivize staking. Rewards will
 increase to incentivize staking when the total staked is below the staking
