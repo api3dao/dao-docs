@@ -11,6 +11,11 @@
       "groupName": "vitepress"
     },
     {
+      "matchDepTypes": ["packageManager"],
+      "matchPackageNames": ["pnpm"],
+      "extends": ["schedule:quarterly"]
+    },
+    {
       "matchDepTypes": ["devDependencies"],
       "excludePackageNames": ["vitepress"],
       "matchUpdateTypes": ["patch", "minor"],
