@@ -1,8 +1,7 @@
 [
-  "/api3-whitepaper-v1.0.3.pdf",
-  "NOTE: The lib link-validator.js uses these as a 'contains' lookup.",
   "https://api3.eth/",
   "https://github.com/api3dao/api3-dao/",
   "https://github.com/api3dao/dao-docs",
-  "https://etherscan.io/address/"
+  "https://dao.api3.org",
+  "https://etherscan.io"
 ]
