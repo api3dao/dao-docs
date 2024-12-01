@@ -96,7 +96,7 @@ relative majority support.
 <!-- The following prettier-ignore is important to prevent spaces in the parameters -->
 <!-- prettier-ignore -->
 ```js
-transfer(address,uint256);
+transfer(address,uint256)
 ```
 
 ::: danger Please note  
