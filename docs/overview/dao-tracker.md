@@ -9,10 +9,10 @@ outline: deep
 # DAO Tracker
 
 The [DAO Tracker](https://tracker.api3.org/) is a community-developed tool that
-provides additional insight into the DAObeyond what is offered by the
-intentionally minimalist DAO Dashboard. It features data about all aspects of
-the DAO, including staking and reward data, members, proposals, and the API3 DAO
-treasury.
+provides additional insight into the DAO beyond what is offered by the
+intentionally minimalist DAO Dashboard. The DAO Tracker covers staking and
+rewards, member wallets, proposals, and the API3 DAO treasury.
 
 Its [open source codebase](https://github.com/api3dao/api3-tracker) was
-developed by GitHub user EnormousCloud.
+initially developed by GitHub user EnormousCloud and is now maintained by the
+API3 team.
