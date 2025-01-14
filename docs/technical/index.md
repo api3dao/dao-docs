@@ -29,6 +29,7 @@ list of contract addresses.
 | Secondary Agent   | [`0x556ecbb0311d350491ba0ec7e019c354d7723ce0`](https://etherscan.io/address/0x556ecbb0311d350491ba0ec7e019c354d7723ce0) <CopyIcon text="0x556ecbb0311d350491ba0ec7e019c354d7723ce0"/> |
 | V1 Treasury       | [`0xe7aF7c5982e073aC6525a34821fe1B3e8E432099`](https://etherscan.io/address/0xe7aF7c5982e073aC6525a34821fe1B3e8E432099) <CopyIcon text="0xe7aF7c5982e073aC6525a34821fe1B3e8E432099"/> |
 | Convenience       | [`0x95087266018b9637aff3d76d4e0cad7e52c19636`](https://etherscan.io/address/0x95087266018b9637aff3d76d4e0cad7e52c19636) <CopyIcon text="0x95087266018b9637aff3d76d4e0cad7e52c19636"/> |
+| API3 Supply       | [`0xcD34bC5B03C954268d27c9Bc165a623c318bD0a8`](https://etherscan.io/address/0xcD34bC5B03C954268d27c9Bc165a623c318bD0a8) <CopyIcon text="0xcD34bC5B03C954268d27c9Bc165a623c318bD0a8"/> |
 
 <!-- Add mainnet addresses to this list -->
 <!-- Add the main DAO contract to this list -->
