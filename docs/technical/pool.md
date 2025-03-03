@@ -1,5 +1,5 @@
 ---
-title: API3
+title: Api3
 pageHeader: Technical
 
 outline: deep
@@ -16,7 +16,7 @@ optionally delegate their voting power to another user.
 See the list of
 [pool contracts](https://github.com/api3dao/api3-dao/tree/main/packages/pool/contracts)
 and specifically the
-[API3Pool.sol](https://github.com/api3dao/api3-dao/blob/main/packages/pool/contracts/Api3Pool.sol)
+[Api3Pool.sol](https://github.com/api3dao/api3-dao/blob/main/packages/pool/contracts/Api3Pool.sol)
 contract for an understanding of the contract inheritance structure:
 
 - TimelockUtils.sol

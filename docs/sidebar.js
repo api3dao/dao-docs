@@ -4,7 +4,7 @@ module.exports = [
     collapsed: false,
     items: [
       {
-        text: 'What is the API3 DAO?',
+        text: 'What is the Api3 DAO?',
         link: '/',
       },
       {

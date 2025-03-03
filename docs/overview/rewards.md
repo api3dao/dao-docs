@@ -1,5 +1,5 @@
 ---
-title: API3
+title: Api3
 pageHeader: Overview
 outline: deep
 ---

@@ -1,5 +1,5 @@
 ---
-title: API3
+title: Api3
 pageHeader: Overview
 outline: deep
 ---
@@ -10,10 +10,10 @@ outline: deep
 
 Contributors receive grants from the DAO and are often composed of hierarchical
 teams which manage, streamline, and secure the success of their deliverables to
-API3.
+Api3.
 
 A best-practice workflow is to form off-chain teams and apply for grants to
-execute one-time projects or time-defined operations that will benefit API3. The
+execute one-time projects or time-defined operations that will benefit Api3. The
 team makes the grant application with a multisig that has the team members
 assigned as owners, and the DAO permissionless-ly transfers the grant to the
 multisig if the proposal is accepted and passed by the DAO contract logic.
