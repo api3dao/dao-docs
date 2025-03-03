@@ -1,5 +1,5 @@
 ---
-title: API3
+title: Api3
 pageHeader: Members
 outline: deep
 ---
@@ -29,13 +29,13 @@ To view the percentage of staked tokens in the pool for an address, visit the
 
 In order for your proposal to succeed, a few steps are highly recommended.
 
-1. Promote your idea and gather feedback on the API3 forum using a
+1. Promote your idea and gather feedback on the Api3 forum using a
    [sentiment check post](https://forum.api3.org/t/sentiment-check-template/56).
    Generally, ideas receiving community engagement on the forum are more likely
    to pass once crafted as official proposals.
 2. Create an
    [official proposal](https://forum.api3.org/t/api3-dao-example-proposal-template/52)
-   post on the API3 forum. This should contain a link to the proposal
+   post on the Api3 forum. This should contain a link to the proposal
    description on IPFS.
 3. After receiving feedback from the above steps, create a formal proposal using
    the DAO dashboard as described below.
@@ -68,7 +68,7 @@ relative majority support.
    your proposal for discussion.
 
    **Why use IPFS?** Consider this use case: You posted on the
-   [API3 forum](https://forum.api3.org/) about a potential proposal. You
+   [Api3 forum](https://forum.api3.org/) about a potential proposal. You
    received positive feedback and decided to formally create a proposal using
    the DAO dashboard. In the proposal's description field you provide a link
    back to the forum so people can again see the proposal details. How does the
@@ -157,7 +157,7 @@ transfer(address,uint256)
 9. Click **Create** \
    The proposal is then added to the proposal list and can be voted on.
 10. **Return to the
-    [API3 forum](https://forum.api3.org/c/official-proposals/5)** \
+    [Api3 forum](https://forum.api3.org/c/official-proposals/5)** \
     Add a comment to your post with a link to your newly created proposal. This
     will help encourage community members to vote.
 

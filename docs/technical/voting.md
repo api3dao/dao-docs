@@ -1,5 +1,5 @@
 ---
-title: API3
+title: Api3
 pageHeader: Technical
 outline: deep
 ---
@@ -8,7 +8,7 @@ outline: deep
 
 # Voting (Api3Voting.sol)
 
-API3's voting app implements a simple quorum-based voting mechanism with:
+Api3's voting app implements a simple quorum-based voting mechanism with:
 
 - a minimum required voting power to create a new proposal (defined in the Pool
   contract)
@@ -18,7 +18,7 @@ API3's voting app implements a simple quorum-based voting mechanism with:
 Proposals include an execution script, which can be executed if the proposal
 passes.
 
-The API3 DAO has installed two instances of its voting app, primary and
+The Api3 DAO has installed two instances of its voting app, primary and
 secondary versions, along with two Aragon Agents that they control. The primary
 commands a larger treasury and can update all DAO settings, while the secondary
 commands a much smaller treasury and can update some of the DAO settings.
