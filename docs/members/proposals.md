@@ -29,14 +29,11 @@ To view the percentage of staked tokens in the pool for an address, visit the
 
 In order for your proposal to succeed, a few steps are highly recommended.
 
-1. Promote your idea and gather feedback on the Api3 forum using a
-   [sentiment check post](https://forum.api3.org/t/sentiment-check-template/56).
-   Generally, ideas receiving community engagement on the forum are more likely
-   to pass once crafted as official proposals.
-2. Create an
-   [official proposal](https://forum.api3.org/t/api3-dao-example-proposal-template/52)
-   post on the Api3 forum. This should contain a link to the proposal
-   description on IPFS.
+1. Promote your idea and gather feedback in the
+   [dedicated governance Discord channel](https://discord.com/channels/758003776174030948/1354430883226193932).
+   Generally, ideas receiving community engagement are more likely to pass.
+2. Following discussion, a link to a final proposal should be posted on IPFS
+   (more on this below).
 3. After receiving feedback from the above steps, create a formal proposal using
    the DAO dashboard as described below.
 
@@ -64,25 +61,24 @@ relative majority support.
 4. **Description**
 
    While a description can be typed text, it’s highly recommended to instead use
-   a PDF hosted on IPFS and adding a link back to the forum where you posted
-   your proposal for discussion.
+   a PDF hosted on IPFS and add a link back to Discord where you posted your
+   proposal for discussion.
 
-   **Why use IPFS?** Consider this use case: You posted on the
-   [Api3 forum](https://forum.api3.org/) about a potential proposal. You
-   received positive feedback and decided to formally create a proposal using
-   the DAO dashboard. In the proposal's description field you provide a link
-   back to the forum so people can again see the proposal details. How does the
-   voter know that it's the exact same proposal they had read earlier in the
-   forum? IPFS addressing content by its hash is convenient here, because any
+   **Why use IPFS?** Consider this situation: You posted on Discord about a
+   potential proposal. You received positive feedback and decided to formally
+   create a proposal using the DAO dashboard. In the proposal's description
+   field you provide a link back to Discord so people can see the proposal
+   details. How does the voter know that it's the exact same proposal they had
+   read earlier? IPFS addressing content by its hash is useful here, because any
    change you'll make to your proposal will change its hash.
 
    To create an IPFS link, upload a PDF version of your proposal to an IPFS
    provider like Pinata or Fleek. After the file is uploaded, the respective
    provider will create a URL with the IPFS hash for the PDF. Add the URL to
-   your forum posting and the description field of your DAO dashboard proposal.
+   your Discord post and the description field of your DAO dashboard proposal.
 
    Remember that the URL the voter sees in the DAO dashboard proposal
-   description field is final and should match the URL on the forum.
+   description field is final and should match the URL shared on Discord.
 
 5. **Target Contract Address** This is the address of the contract to call. For
    example, the commonly used target contract for USDC is
@@ -156,10 +152,8 @@ transfer(address,uint256)
 
 9. Click **Create** \
    The proposal is then added to the proposal list and can be voted on.
-10. **Return to the
-    [Api3 forum](https://forum.api3.org/c/official-proposals/5)** \
-    Add a comment to your post with a link to your newly created proposal. This
-    will help encourage community members to vote.
+10. **Return to Discord** \
+    Mention on Discord that the proposal can now be voted on.
 
 ## Proposal execution
 
