@@ -7,6 +7,10 @@
       "enabled": false
     },
     {
+      "matchDatasources": ["node-version"],
+      "enabled": false
+    },
+    {
       "matchPackageNames": ["vitepress"],
       "groupName": "vitepress"
     },
