@@ -15,10 +15,10 @@
     "firebase:emulator": "pnpm docs:build; firebase emulators:start"
   },
   "devDependencies": {
-    "axios": "^1.11.0",
+    "axios": "^1.12.2",
     "colors": "^1.4.0",
     "file": "^0.2.2",
-    "fs-extra": "^11.3.1",
+    "fs-extra": "^11.3.2",
     "husky": "^9.1.7",
     "medium-zoom": "^1.1.0",
     "oust": "^2.0.4",
