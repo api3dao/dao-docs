@@ -1,5 +1,5 @@
 ---
-title: Api3
+title: API3
 pageHeader: Members
 outline: deep
 ---
