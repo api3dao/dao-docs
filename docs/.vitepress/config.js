@@ -1,6 +1,6 @@
 export default {
   title: 'DAO Documentation',
-  description: 'Api3 DAO Documentation',
+  description: 'API3 DAO Documentation',
   markdown: {
     lineNumbers: true,
     toc: ['h2', 'h3', 'h4', 'h5'],
