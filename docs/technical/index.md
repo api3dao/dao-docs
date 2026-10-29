@@ -8,6 +8,14 @@ outline: deep
 
 # Contracts
 
+::: warning Retired
+
+No vote can be created in the voting apps, the pool no longer mints rewards and
+the API3 token has no minters and is owned by the dead address. The pool still
+handles unstaking, withdrawing and delegation.
+
+:::
+
 The core of the DAO is a set of smart contracts based on Aragon's
 [aragonOS](https://github.com/aragon/aragonOS). The code for all DAO contracts
 can be found in the [api3-dao](https://github.com/api3dao/api3-dao/) GitHub

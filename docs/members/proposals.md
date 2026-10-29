@@ -8,6 +8,13 @@ outline: deep
 
 # Working with Proposals
 
+::: warning Proposals moved to Snapshot
+
+No proposal can be created in the legacy DAO. Proposals are posted on Snapshot
+(see [Voting](https://docs.api3.org/dao/voting.html)).
+
+:::
+
 Proposals are an important part of DAO governance, and can be used to fund DAO
 projects or ratify DAO-level decisions like updating the stake target. Staking
 tokens in the pool gives you governance rights to create and vote on proposals.

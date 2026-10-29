@@ -8,6 +8,14 @@ outline: deep
 
 # Staking Tokens
 
+::: warning Rewards ended
+
+The pool no longer pays rewards, and Deposit and Stake are disabled on the
+dashboard. Unstaking and withdrawing work as described below, and
+[on Etherscan](/members/etherscan.md) without the dashboard.
+
+:::
+
 Staking API3 tokens in the staking pool makes you eligible for rewards and
 governance rights.
 
