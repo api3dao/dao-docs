@@ -49,8 +49,12 @@ vesting still hold: `unstaked + userStake - userLocked - vesting`, at most
 `unstaked`. A larger amount reverts with `Pool: Not enough unlocked funds`.
 
 `unstakeAndWithdraw` does steps 3 and 4 in one call when the whole unstaked
-amount is withdrawable. With locked rewards it reverts, so call `unstake` and
-`withdrawRegular` separately.
+amount is withdrawable. It reverts when what stays staked or deposited does not
+cover your locked rewards and vesting, for example on a full exit with locked
+rewards, so call `unstake` and `withdrawRegular` separately.
+
+If `vesting` is not zero and its release has started, call
+`updateTimelockStatus` with your address to release the vested part.
 
 Each reward unlocks a year after it was minted. Call `withdrawRegular` again as
 your rewards unlock. A year after the last reward, nothing is locked.
