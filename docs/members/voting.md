@@ -8,6 +8,17 @@ outline: deep
 
 # Voting
 
+::: warning Voting moved to Snapshot
+
+Voting in the legacy DAO has ended. Stake delegated in the pool still counts for
+the delegate on Snapshot (see
+[Pool delegation](https://docs.api3.org/dao/voting-power.html#pool-delegation)).
+Only Undelegate remains on the dashboard, and
+[Etherscan](/members/etherscan.md#changing-a-pool-delegation) covers every
+change.
+
+:::
+
 <!-- vote and delegate video -->
 <Video src="https://www.youtube.com/embed/K_EZFMjXUPA"/>
 

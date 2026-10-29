@@ -8,6 +8,14 @@ outline: deep
 
 # Rewards
 
+::: warning Rewards ended
+
+The pool no longer pays rewards. Rewards minted before the DAO migration still
+unlock a year after each was minted. Staked API3 votes on Snapshot like API3 in
+a wallet (see [Voting power](https://docs.api3.org/dao/voting-power.html)).
+
+:::
+
 Through staking API3 tokens in the pool, you gain access to weekly rewards
 (unlocked after one year) and are also granted voting rights on active DAO
 proposals and rewards.

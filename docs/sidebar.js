@@ -46,6 +46,10 @@ module.exports = [
         text: 'Voting',
         link: '/members/voting',
       },
+      {
+        text: 'Using the pool on Etherscan',
+        link: '/members/etherscan',
+      },
     ],
   },
   {

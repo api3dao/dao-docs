@@ -8,6 +8,13 @@ outline: deep
 
 # Dashboard attributes
 
+::: warning Fixed
+
+No vote can be created in the legacy DAO, so these parameters can no longer be
+changed.
+
+:::
+
 Some attributes that determine values displayed on the DAO dashboard (such as
 the STAKING TARGET) can be changed by creating a proposal and calling the
 appropriate function on the DAO pool contract.
