@@ -23,6 +23,10 @@ module.exports = [
         text: 'DAO Tracker',
         link: '/overview/dao-tracker',
       },
+      {
+        text: 'Guide: Unstake and Withdraw',
+        link: '/overview/guide-unstake-withdraw',
+      },
     ],
   },
 
