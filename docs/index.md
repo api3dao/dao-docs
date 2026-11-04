@@ -10,8 +10,8 @@ outline: deep
 
 ::: danger The DAO has migrated to Snapshot
 
-These pages document the legacy API3 DAO on Aragon. Governance moved to
-Snapshot with the
+These pages document the legacy API3 DAO on Aragon. Governance moved to Snapshot
+with the
 [DAO migration primary proposal #17](https://ivory-general-mouse-678.mypinata.cloud/ipfs/bafybeihrqolxtycbb4oadz5phdvrk6d2m3z6etfcj663mon242qeox26dq),
 and the [current DAO documentation](https://docs.api3.org/dao/) covers it. The
 staking pool no longer mints rewards. The DAO Dashboard stays online until the
