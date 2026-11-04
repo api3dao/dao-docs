@@ -8,6 +8,10 @@ module.exports = [
         link: '/',
       },
       {
+        text: 'Guide: Unstake and Withdraw',
+        link: '/overview/guide-unstake-withdraw',
+      },
+      {
         text: 'Governance',
         link: '/overview/governance',
       },
@@ -49,6 +53,10 @@ module.exports = [
       {
         text: 'Voting',
         link: '/members/voting',
+      },
+      {
+        text: 'Using the pool on Etherscan',
+        link: '/members/etherscan',
       },
     ],
   },

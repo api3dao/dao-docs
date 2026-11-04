@@ -1,15 +1,21 @@
 import DefaultTheme from 'vitepress/theme';
-import { onMounted, watch, nextTick } from 'vue';
+import { h, onMounted, watch, nextTick } from 'vue';
 import { useRoute } from 'vitepress';
 import mediumZoom from 'medium-zoom';
 import PageHeader from '../../_components/PageHeader.vue';
 import CopyIcon from '../../_components/CopyIcon.vue';
 import Video from '../../_components/Video.vue';
+import LegacyBanner from '../../_components/LegacyBanner.vue';
 
 import './zoom.css';
 
 export default {
   ...DefaultTheme,
+  Layout() {
+    return h(DefaultTheme.Layout, null, {
+      'layout-top': () => h(LegacyBanner),
+    });
+  },
   setup() {
     const route = useRoute();
     const initZoom = () => {

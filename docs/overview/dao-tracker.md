@@ -11,4 +11,5 @@ outline: deep
 The [DAO Tracker](https://tracker.api3.org/) is a tool that provides additional
 insight into the DAO beyond what is offered by the intentionally minimalist DAO
 Dashboard. The DAO Tracker covers staking and rewards, member wallets, and
-proposals. The data is synced once a day.
+proposals. The data is synced once a day. It stays up until the end of March
+2028 as the record of the legacy DAO.
