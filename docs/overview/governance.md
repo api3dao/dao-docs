@@ -8,6 +8,14 @@ outline: deep
 
 # Governance
 
+::: warning Governance moved to Snapshot
+
+Every API3 holder votes on Snapshot, staked or not, and staking is no longer
+needed to participate (see the
+[current DAO documentation](https://docs.api3.org/dao/)).
+
+:::
+
 The DAO votes on high-level matters such as staking incentives and
 collateralization (parameters of the DAO smart contract itself), as well as
 grant proposals that directly transfer DAO treasury assets to contributors of

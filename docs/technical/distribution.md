@@ -8,6 +8,13 @@ outline: deep
 
 # Reward calculation and distribution
 
+::: warning Rewards ended
+
+The pool is no longer a minter of the API3 token, so `mintReward` mints nothing.
+Rewards minted before stay locked for a year each.
+
+:::
+
 The staking reward is programmed to increase while the staked amount is below
 the staking target, and vice versa. There is no predetermined schedule.
 
