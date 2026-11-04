@@ -128,8 +128,8 @@ week, but roughly 344 tokens of rewards are still waiting.** Nothing is lost —
 they are simply on the 1-year clock.
 
 **November 2026 → October 2027 — rewards unlock week by week.** Every Thursday,
-about 6–8 more tokens are added to **Withdrawable**. Of the ~344 locked tokens,
-approximately:
+about 6–8 more tokens are available as **Withdrawable**. Of the ~344 locked
+tokens, approximately:
 
 | By this date     | Unlocked since Nov 5 (ready to withdraw) | Still locked |
 | ---------------- | ---------------------------------------- | ------------ |
@@ -138,7 +138,7 @@ approximately:
 | Mar 31, 2027     | ~129.6                                   | ~214.6       |
 | Jun 30, 2027     | ~218.1                                   | ~126.2       |
 | Sep 30, 2027     | ~313.4                                   | ~30.8        |
-| **Oct 22, 2027** | **~344.3 (all of it)**                   | **0**        |
+| **Oct 29, 2027** | **~344.3 (all of it)**                   | **0**        |
 
 The last reward Alex kept (paid Oct 22, 2026) unlocks around **October 22,
 2027**.
@@ -164,7 +164,7 @@ Nov 5, 2026    Withdraw ~1,005.79   ← deposit + oldest reward
                │
                │  ~6–8 tokens unlock every Thursday
                ▼
-Oct 22, 2027   Last reward unlocks → Withdraw the remaining ~344
+Oct 29, 2027   Last reward unlocks → Withdraw the remaining ~344
 ```
 
 ## Quick FAQ
