@@ -56,14 +56,15 @@ Before you start.
 
 - **Gas.** Initiating, unstaking and withdrawing are three separate Ethereum
   transactions, so keep some ETH in your wallet. Do them in one round: initiate
-  the unstake, and after seven days unstake and withdraw together.
+  the unstake, come back after seven days to unstake, and withdraw in the same
+  visit.
 
 ### Step 1 — Unstake
 
 1. On the DAO Dashboard, click **Initiate Unstake**, choose the amount (or
    **Max**), and confirm the transaction in your wallet.
-2. A **7-day countdown** starts once the transaction is confirmed. The tokens
-   still count as voting power on Snapshot during the wait.
+2. A 7-day countdown starts once the transaction is confirmed. The tokens still
+   count as voting power on Snapshot during the wait.
 3. When the countdown ends, click **Unstake** and confirm the transaction. Do
    this promptly — if you wait too long after the timer ends, you may have to
    initiate again and wait another seven days.
@@ -81,25 +82,26 @@ yet in your wallet.
 3. Any rewards still inside their one-year lock stay in the pool. Each weekly
    reward unlocks one year after the Thursday it was paid, and on that date it
    is added to **Withdrawable** automatically. Come back and repeat Step 2
-   whenever you want to collect them — **no further 7-day wait is needed**.
+   whenever you want to collect them, no further 7-day wait is needed.
 
-> **What about the "Unstake & Withdraw" button?**
->
-> It combines both steps into one transaction, and it is intended for stakers
-> who have **no locked rewards** — for example, someone who staked and unstaked
-> within the same week. If you have been earning rewards, use **Unstake** and
-> then **Withdraw** as described above.
+::: info What about the "Unstake & Withdraw" button?
+
+It combines both steps into one transaction, and it is intended for stakers who
+have no locked rewards, for example someone who staked and unstaked within the
+same week. If you have been earning rewards, use **Unstake** and then
+**Withdraw** as described above.
+
+:::
 
 ## Example: a typical small staker
 
-**Alex** deposited and staked **1,000 API3** on **Wednesday, October 29, 2025**.
-Rewards have been paid every Thursday since, starting October 30, 2025. Today is
-**Thursday, October 29, 2026**, and Alex wants everything out — deposit and
-rewards.
+Alex deposited and staked 1,000 API3 on Wednesday, October 29, 2025. Rewards
+have been paid every Thursday since, starting October 30, 2025. Today is
+Thursday, October 29, 2026, and Alex wants everything out, deposit and rewards.
 
-> **Assumption for illustration:** a flat 30.1% APR, compounded weekly. The real
-> APR adjusted every week, so Alex's actual numbers will differ — but the
-> _shape_ of the timeline is identical for everyone.
+Assumption for illustration: a flat 30.1% APR, compounded weekly. The real APR
+adjusted every week, so Alex's actual numbers will differ, but the shape of the
+timeline is identical for everyone.
 
 ### Where Alex stands today
 
@@ -111,15 +113,15 @@ rewards.
 
 ### Step 1 — Unstake
 
-**Thu Oct 29, 2026:** Alex sends **Initiate Unstake → Max**. The 7-day countdown
-starts once the transaction is confirmed.
+Thu Oct 29, 2026: Alex sends **Initiate Unstake** with **Max**. The 7-day
+countdown starts once the transaction is confirmed.
 
-**Thu Nov 5, 2026:** the countdown ends. Alex sends **Unstake**. Once it is
+Thu Nov 5, 2026: the countdown ends. Alex sends **Unstake**. Once it is
 confirmed, everything is unstaked and sitting in Alex's pool Balance.
 
 ### Step 2 — Withdraw
 
-**Thu Nov 5, 2026 — first withdrawal.** The Dashboard shows:
+Thu Nov 5, 2026, first withdrawal. The Dashboard shows:
 
 |                                   | Amount        | Why                                        |
 | --------------------------------- | ------------- | ------------------------------------------ |
@@ -128,13 +130,13 @@ confirmed, everything is unstaked and sitting in Alex's pool Balance.
 | **Withdrawable now**              | **~1,005.79** | Alex withdraws this to the wallet          |
 | **Still locked in the pool**      | **~352**      | Each unlocks on its own 1-year anniversary |
 
-This is the moment most people are surprised: **the deposit comes back in a
-week, but roughly 352 tokens of rewards are still waiting.** Nothing is lost —
-they are simply on the 1-year clock.
+This is the moment most people are surprised: the deposit comes back in a week,
+but roughly 352 tokens of rewards are still waiting. Nothing is lost, they are
+simply on the 1-year clock.
 
-**November 2026 → October 2027 — rewards unlock week by week.** Every Thursday,
-about 6–8 more tokens are added to **Withdrawable**. Of the ~352 locked tokens,
-approximately:
+From November 2026 to October 2027 the rewards unlock week by week. Every
+Thursday, about 6–8 more tokens are added to **Withdrawable**. Of the ~352
+locked tokens, approximately:
 
 | By this date     | Unlocked since Nov 5 (ready to withdraw) | Still locked |
 | ---------------- | ---------------------------------------- | ------------ |
@@ -145,16 +147,14 @@ approximately:
 | Sep 30, 2027     | ~313.4                                   | ~38.7        |
 | **Oct 29, 2027** | **~352.1 (all of it)**                   | **0**        |
 
-The last reward Alex received (paid Oct 29, 2026) unlocks around **October 29,
-2027**.
+The last reward Alex received (paid Oct 29, 2026) unlocks around October
+29, 2027.
 
-**Collecting the rest — Alex's choice.** Each withdrawal costs gas, so for a
-small balance it rarely makes sense to collect weekly. Common approaches:
+Collecting the rest is Alex's choice. Each withdrawal costs gas, so for a small
+balance it rarely makes sense to collect weekly. Common approaches:
 
-- **One trip:** come back once in late October 2027 and **Withdraw** the full
-  ~352.
-- **A few trips:** withdraw quarterly or semi-annually as the table above fills
-  in.
+- One trip: come back once in late October 2027 and **Withdraw** the full ~352.
+- A few trips: withdraw quarterly or semi-annually as the table above fills in.
 
 ### Alex's timeline at a glance
 
