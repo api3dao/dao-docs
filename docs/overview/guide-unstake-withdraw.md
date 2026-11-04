@@ -11,9 +11,10 @@ outline: [2, 3]
 
 # Guide: Unstake and Withdraw
 
-A guide to unstaking and withdrawing using the **DAO Dashboard**. This document
-addresses a common question often asked by depositors: _Why do my token rewards
-take longer to withdraw than the tokens I deposited?_
+A guide to unstaking and withdrawing using the
+[DAO Dashboard](https://api3.eth.limo/#/). This document addresses a common
+question often asked by depositors: _Why do my token rewards take longer to
+withdraw than the tokens I deposited?_
 
 <!-- prettier-ignore -->
 ::: danger _Unstake and Withdraw_ deadline 
@@ -34,9 +35,10 @@ most common source of "where are my tokens?" questions.
 | **Tokens you deposited**         | **7 days**                   | You click **Initiate Unstake**         |
 | **Tokens you earned as rewards** | **1 year**                   | Each individual weekly reward was paid |
 
-The 7-day clock is short and you start it yourself. The 1-year clock is long,
-and it is **already running separately for every weekly reward you have ever
-received** — you cannot start it, speed it up, or reset it by unstaking.
+The 7-day clock is started automatically once the unstake is initiated. The
+1-year clock is long, and it is **already running separately for every weekly
+reward you have ever received** — you cannot start it, speed it up, or reset it
+by unstaking.
 
 **About the rewards lock:** rewards are minted into the pool once a week (on
 Thursdays) and are automatically staked, so they compound along with your
@@ -47,20 +49,16 @@ still locked, each with its own date.
 
 ## The process: two steps
 
-Before you start.
-
-- **Unstaking forfeits your most recent weekly reward.** Expect to give up about
-  one week's worth.
-- **Gas.** Initiating, unstaking, and each withdrawal is a separate Ethereum
-  transaction. Keep some ETH in your wallet, and consider how many withdrawal
-  trips you want to make.
+Initiating, unstaking, and each withdrawal is a separate Ethereum transaction.
+Keep some ETH in your wallet, and consider how many withdrawal trips you want to
+make.
 
 ### Step 1 — Unstake
 
 1. On the DAO Dashboard, click **Initiate Unstake**, choose the amount (or
    **Max**), and confirm.
-2. A **7-day countdown** starts. During this week the tokens being unstaked
-   **stop earning rewards** and **stop carrying voting power**.
+2. A **7-day countdown** starts and the tokens will be unstaked after the wait
+   period.
 3. When the countdown ends, click **Unstake**. Do this promptly — if you wait
    too long after the timer ends, you may have to initiate again and wait
    another seven days.
@@ -109,7 +107,7 @@ rewards.
 ### Step 1 — Unstake
 
 **Thu Oct 29, 2026:** Alex clicks **Initiate Unstake → Max**. The 7-day
-countdown starts and Alex stops earning rewards.
+countdown starts.
 
 **Thu Nov 5, 2026:** the countdown ends. Alex clicks **Unstake**. Everything is
 now unstaked and sitting in Alex's pool Balance.
@@ -123,7 +121,6 @@ now unstaked and sitting in Alex's pool Balance.
 | Original deposit                  | 1,000.00      | 7-day wait is over                         |
 | Oldest reward (paid Oct 30, 2025) | ~5.79         | It has passed its 1-year mark              |
 | **Withdrawable now**              | **~1,005.79** | Alex withdraws this to the wallet          |
-| Most recent reward                | ~7.81         | Forfeited by unstaking                     |
 | **Still locked in the pool**      | **~344**      | Each unlocks on its own 1-year anniversary |
 
 This is the moment most people are surprised: **the deposit comes back in a
