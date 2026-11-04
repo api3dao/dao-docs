@@ -57,7 +57,8 @@ If `vesting` is not zero and its release has started, call
 `updateTimelockStatus` with your address to release the vested part.
 
 Each reward unlocks a year after it was minted. Call `withdrawRegular` again as
-your rewards unlock. A year after the last reward, nothing is locked.
+your rewards unlock. The last reward was minted on 29 October 2026 and unlocks
+on 28 October 2027, after which nothing is locked.
 
 If `withdrawRegular` runs out of gas, which can happen after very frequent
 staking and unstaking, call `precalculateUserLocked` with your address and a
