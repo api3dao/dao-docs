@@ -8,7 +8,7 @@ module.exports = [
         link: '/',
       },
       {
-        text: 'TLDR for stakers',
+        text: 'Guide: Unstake and Withdraw',
         link: '/overview/guide-unstake-withdraw',
       },
       {

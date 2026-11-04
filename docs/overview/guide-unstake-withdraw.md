@@ -9,7 +9,7 @@ outline: [2, 3]
 
 <PageHeader/>
 
-# TLDR for stakers
+# Guide: Unstake and Withdraw
 
 A guide to unstaking and withdrawing using the
 [DAO Dashboard](https://api3.eth.limo/#/). This document addresses a common
@@ -17,37 +17,38 @@ question often asked by depositors: _Why do my token rewards take longer to
 withdraw than the tokens I deposited?_
 
 <!-- prettier-ignore -->
-::: danger _Unstake and Withdraw_ deadline 
+::: danger DAO Dashboard retirement
 The DAO Dashboard stays online until the end of March 2028, with only unstake, withdraw, and
 undelegate available. This is a result of the [DAO migration primary proposal #17](https://ivory-general-mouse-678.mypinata.cloud/ipfs/bafybeihrqolxtycbb4oadz5phdvrk6d2m3z6etfcj663mon242qeox26dq) which ends staking pool rewards.
+Your tokens are never lost: unstaking and withdrawing stay possible at any time by calling the pool contract directly, with or without the dashboard.
 :::
 
-Use the [DAO Tracker](https://tracker.api3.org/wallets), until the end of March
-2028, for an overview of your pool status and activity.
+Use the [DAO Tracker](https://tracker.api3.org/), until the end of March 2028,
+for an overview of your pool status and activity.
 
 ## The two clocks
 
 Every API3 staker has two separate waiting periods, and confusing them is the
 most common source of "where are my tokens?" questions.
 
-| What                                       | Wait before you can withdraw | Starts counting when                   |
-| ------------------------------------------ | ---------------------------- | -------------------------------------- |
-| **Tokens you deposited but did not stake** | **None**                     | Withdrawable right away                |
-| **Tokens you staked**                      | **7 days**                   | You click **Initiate Unstake**         |
-| **Tokens you earned as rewards**           | **1 year**                   | Each individual weekly reward was paid |
+| What                                       | Wait before you can withdraw | Starts counting when                               |
+| ------------------------------------------ | ---------------------------- | -------------------------------------------------- |
+| **Tokens you deposited but did not stake** | **None**                     | Withdrawable right away                            |
+| **Tokens you staked**                      | **7 days**                   | Your **Initiate Unstake** transaction is confirmed |
+| **Tokens you earned as rewards**           | **1 year**                   | Each individual weekly reward was paid             |
 
-The 7-day clock is started automatically once the unstake is initiated. The
-1-year clock is long, and it is **already running separately for every weekly
-reward you have ever received** — you cannot start it, speed it up, or reset it
-by unstaking.
+The 7-day clock starts automatically once the Initiate Unstake transaction is
+confirmed. The 1-year clock is long, and it is already **running separately for
+every weekly reward** you have ever received — you cannot start it, speed it up,
+or reset it by unstaking.
 
-**About the rewards lock:** rewards were minted into the pool once a week (on
-Thursdays) and automatically staked, so they compounded along with your deposit.
-The pool pays no rewards since the migration, and the last reward was minted on
-October 29, 2026. Each week's reward unlocks one year from the day it was paid.
-This is a **rolling unlock**, not a single anniversary — even after exactly one
-year of staking, only your _oldest_ reward has unlocked. The other 51 weeks'
-worth are still locked, each with its own date.
+Rewards were minted into the pool once a week (on Thursdays) and automatically
+staked, so they compounded along with your deposit. The pool pays no rewards
+since the migration, and the last reward was minted on October 29, 2026. Each
+week's reward unlocks one year from the day it was paid. This is a **rolling
+unlock**, not a single anniversary — even after exactly one year of staking,
+only your _oldest_ reward has unlocked. The other 51 weeks' worth are still
+locked, each with its own date.
 
 ## The process: two steps
 
@@ -60,12 +61,12 @@ Before you start.
 ### Step 1 — Unstake
 
 1. On the DAO Dashboard, click **Initiate Unstake**, choose the amount (or
-   **Max**), and confirm.
-2. A **7-day countdown** starts. The tokens still count as voting power on
-   Snapshot during the wait.
-3. When the countdown ends, click **Unstake**. Do this promptly — if you wait
-   too long after the timer ends, you may have to initiate again and wait
-   another seven days.
+   **Max**), and confirm the transaction in your wallet.
+2. A **7-day countdown** starts once the transaction is confirmed. The tokens
+   still count as voting power on Snapshot during the wait.
+3. When the countdown ends, click **Unstake** and confirm the transaction. Do
+   this promptly — if you wait too long after the timer ends, you may have to
+   initiate again and wait another seven days.
 
 Your tokens are now unstaked and sitting in your pool **Balance**. They are not
 yet in your wallet.
@@ -75,8 +76,8 @@ yet in your wallet.
 1. Look at the **Withdrawable** figure in the Balance section. This is the
    amount you can take out right now: your deposit plus any rewards that have
    passed their one-year mark.
-2. Click **Withdraw**, enter that amount (or **Max**), and confirm. The tokens
-   go to your wallet.
+2. Click **Withdraw**, enter that amount (or **Max**), and confirm the
+   transaction. The tokens are in your wallet once it is confirmed.
 3. Any rewards still inside their one-year lock stay in the pool. Each weekly
    reward unlocks one year after the Thursday it was paid, and on that date it
    is added to **Withdrawable** automatically. Come back and repeat Step 2
@@ -110,11 +111,11 @@ rewards.
 
 ### Step 1 — Unstake
 
-**Thu Oct 29, 2026:** Alex clicks **Initiate Unstake → Max**. The 7-day
-countdown starts.
+**Thu Oct 29, 2026:** Alex sends **Initiate Unstake → Max**. The 7-day countdown
+starts once the transaction is confirmed.
 
-**Thu Nov 5, 2026:** the countdown ends. Alex clicks **Unstake**. Everything is
-now unstaked and sitting in Alex's pool Balance.
+**Thu Nov 5, 2026:** the countdown ends. Alex sends **Unstake**. Once it is
+confirmed, everything is unstaked and sitting in Alex's pool Balance.
 
 ### Step 2 — Withdraw
 
