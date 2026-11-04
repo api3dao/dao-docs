@@ -38,7 +38,7 @@ rewards. After March 2028 both are retired and we publish step-by-step Etherscan
 instructions for calling scheduleUnstake, unstake and withdraw on the pool
 directly.
 
-- See the [Guide: Unstake and Withdraw](/overview/guide-unstake-withdraw) for
-  help using the DAO Dashboard to withdraw tokens.
+- See the [TLDR for stakers](/overview/guide-unstake-withdraw) for help using
+  the DAO Dashboard to withdraw tokens.
 - See [Staking Tokens > Claiming rewards](/members/staking#_3-claim-rewards) to
   further understand "Claiming rewards".

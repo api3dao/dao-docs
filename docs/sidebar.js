@@ -8,6 +8,10 @@ module.exports = [
         link: '/',
       },
       {
+        text: 'TLDR for stakers',
+        link: '/overview/guide-unstake-withdraw',
+      },
+      {
         text: 'Governance',
         link: '/overview/governance',
       },
@@ -22,10 +26,6 @@ module.exports = [
       {
         text: 'DAO Tracker',
         link: '/overview/dao-tracker',
-      },
-      {
-        text: 'Guide: Unstake and Withdraw',
-        link: '/overview/guide-unstake-withdraw',
       },
     ],
   },

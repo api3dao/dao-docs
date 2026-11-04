@@ -9,15 +9,16 @@ outline: [2, 3]
 
 <PageHeader/>
 
-# Guide: Unstake and Withdraw
+# TLDR for stakers
 
-A guide to unstaking and withdrawing using the **DAO Dashboard**. This document
-addresses a common question often asked by depositors: _Why do my token rewards
-take longer to withdraw than the tokens I deposited?_
+A guide to unstaking and withdrawing using the
+[DAO Dashboard](https://api3.eth.limo/#/). This document addresses a common
+question often asked by depositors: _Why do my token rewards take longer to
+withdraw than the tokens I deposited?_
 
 <!-- prettier-ignore -->
 ::: danger _Unstake and Withdraw_ deadline 
-The [DAO Dashboard](https://api3.eth.limo/#/) stays online until the end of March 2028, with only unstake, withdraw, and
+The DAO Dashboard stays online until the end of March 2028, with only unstake, withdraw, and
 undelegate available. This is a result of the [DAO migration primary proposal #17](https://ivory-general-mouse-678.mypinata.cloud/ipfs/bafybeihrqolxtycbb4oadz5phdvrk6d2m3z6etfcj663mon242qeox26dq) which ends staking pool rewards.
 :::
 
@@ -29,38 +30,39 @@ Use the [DAO Tracker](https://tracker.api3.org/wallets), until the end of March
 Every API3 staker has two separate waiting periods, and confusing them is the
 most common source of "where are my tokens?" questions.
 
-| What                             | Wait before you can withdraw | Starts counting when                   |
-| -------------------------------- | ---------------------------- | -------------------------------------- |
-| **Tokens you deposited**         | **7 days**                   | You click **Initiate Unstake**         |
-| **Tokens you earned as rewards** | **1 year**                   | Each individual weekly reward was paid |
+| What                                       | Wait before you can withdraw | Starts counting when                   |
+| ------------------------------------------ | ---------------------------- | -------------------------------------- |
+| **Tokens you deposited but did not stake** | **None**                     | Withdrawable right away                |
+| **Tokens you staked**                      | **7 days**                   | You click **Initiate Unstake**         |
+| **Tokens you earned as rewards**           | **1 year**                   | Each individual weekly reward was paid |
 
-The 7-day clock is short and you start it yourself. The 1-year clock is long,
-and it is **already running separately for every weekly reward you have ever
-received** — you cannot start it, speed it up, or reset it by unstaking.
+The 7-day clock is started automatically once the unstake is initiated. The
+1-year clock is long, and it is **already running separately for every weekly
+reward you have ever received** — you cannot start it, speed it up, or reset it
+by unstaking.
 
-**About the rewards lock:** rewards are minted into the pool once a week (on
-Thursdays) and are automatically staked, so they compound along with your
-deposit. Each week's reward unlocks one year from the day it was paid. This is a
-**rolling unlock**, not a single anniversary — even after exactly one year of
-staking, only your _oldest_ reward has unlocked. The other 51 weeks' worth are
-still locked, each with its own date.
+**About the rewards lock:** rewards were minted into the pool once a week (on
+Thursdays) and automatically staked, so they compounded along with your deposit.
+The pool pays no rewards since the migration, and the last reward was minted on
+October 29, 2026. Each week's reward unlocks one year from the day it was paid.
+This is a **rolling unlock**, not a single anniversary — even after exactly one
+year of staking, only your _oldest_ reward has unlocked. The other 51 weeks'
+worth are still locked, each with its own date.
 
 ## The process: two steps
 
 Before you start.
 
-- **Unstaking forfeits your most recent weekly reward.** Expect to give up about
-  one week's worth.
-- **Gas.** Initiating, unstaking, and each withdrawal is a separate Ethereum
-  transaction. Keep some ETH in your wallet, and consider how many withdrawal
-  trips you want to make.
+- **Gas.** Initiating, unstaking and withdrawing are three separate Ethereum
+  transactions, so keep some ETH in your wallet. Do them in one round: initiate
+  the unstake, and after seven days unstake and withdraw together.
 
 ### Step 1 — Unstake
 
 1. On the DAO Dashboard, click **Initiate Unstake**, choose the amount (or
    **Max**), and confirm.
-2. A **7-day countdown** starts. During this week the tokens being unstaked
-   **stop earning rewards** and **stop carrying voting power**.
+2. A **7-day countdown** starts. The tokens still count as voting power on
+   Snapshot during the wait.
 3. When the countdown ends, click **Unstake**. Do this promptly — if you wait
    too long after the timer ends, you may have to initiate again and wait
    another seven days.
@@ -95,8 +97,8 @@ Rewards have been paid every Thursday since, starting October 30, 2025. Today is
 rewards.
 
 > **Assumption for illustration:** a flat 30.1% APR, compounded weekly. The real
-> APR adjusts every week, so Alex's actual numbers will differ — but the _shape_
-> of the timeline is identical for everyone.
+> APR adjusted every week, so Alex's actual numbers will differ — but the
+> _shape_ of the timeline is identical for everyone.
 
 ### Where Alex stands today
 
@@ -109,7 +111,7 @@ rewards.
 ### Step 1 — Unstake
 
 **Thu Oct 29, 2026:** Alex clicks **Initiate Unstake → Max**. The 7-day
-countdown starts and Alex stops earning rewards.
+countdown starts.
 
 **Thu Nov 5, 2026:** the countdown ends. Alex clicks **Unstake**. Everything is
 now unstaked and sitting in Alex's pool Balance.
@@ -123,34 +125,33 @@ now unstaked and sitting in Alex's pool Balance.
 | Original deposit                  | 1,000.00      | 7-day wait is over                         |
 | Oldest reward (paid Oct 30, 2025) | ~5.79         | It has passed its 1-year mark              |
 | **Withdrawable now**              | **~1,005.79** | Alex withdraws this to the wallet          |
-| Most recent reward                | ~7.81         | Forfeited by unstaking                     |
-| **Still locked in the pool**      | **~344**      | Each unlocks on its own 1-year anniversary |
+| **Still locked in the pool**      | **~352**      | Each unlocks on its own 1-year anniversary |
 
 This is the moment most people are surprised: **the deposit comes back in a
-week, but roughly 344 tokens of rewards are still waiting.** Nothing is lost —
+week, but roughly 352 tokens of rewards are still waiting.** Nothing is lost —
 they are simply on the 1-year clock.
 
 **November 2026 → October 2027 — rewards unlock week by week.** Every Thursday,
-about 6–8 more tokens are added to **Withdrawable**. Of the ~344 locked tokens,
+about 6–8 more tokens are added to **Withdrawable**. Of the ~352 locked tokens,
 approximately:
 
 | By this date     | Unlocked since Nov 5 (ready to withdraw) | Still locked |
 | ---------------- | ---------------------------------------- | ------------ |
-| Nov 5, 2026      | 0                                        | ~344.3       |
-| Dec 31, 2026     | ~47.5                                    | ~296.7       |
-| Mar 31, 2027     | ~129.6                                   | ~214.6       |
-| Jun 30, 2027     | ~218.1                                   | ~126.2       |
-| Sep 30, 2027     | ~313.4                                   | ~30.8        |
-| **Oct 22, 2027** | **~344.3 (all of it)**                   | **0**        |
+| Nov 5, 2026      | 0                                        | ~352.1       |
+| Dec 31, 2026     | ~47.5                                    | ~304.6       |
+| Mar 31, 2027     | ~129.6                                   | ~222.5       |
+| Jun 30, 2027     | ~218.1                                   | ~134.0       |
+| Sep 30, 2027     | ~313.4                                   | ~38.7        |
+| **Oct 29, 2027** | **~352.1 (all of it)**                   | **0**        |
 
-The last reward Alex kept (paid Oct 22, 2026) unlocks around **October 22,
+The last reward Alex received (paid Oct 29, 2026) unlocks around **October 29,
 2027**.
 
 **Collecting the rest — Alex's choice.** Each withdrawal costs gas, so for a
 small balance it rarely makes sense to collect weekly. Common approaches:
 
 - **One trip:** come back once in late October 2027 and **Withdraw** the full
-  ~344.
+  ~352.
 - **A few trips:** withdraw quarterly or semi-annually as the table above fills
   in.
 
@@ -167,7 +168,7 @@ Nov 5, 2026    Withdraw ~1,005.79   ← deposit + oldest reward
                │
                │  ~6–8 tokens unlock every Thursday
                ▼
-Oct 22, 2027   Last reward unlocks → Withdraw the remaining ~344
+Oct 29, 2027   Last reward unlocks → Withdraw the remaining ~352
 ```
 
 ## Quick FAQ
@@ -183,11 +184,10 @@ own one-year anniversary before Step 2 can release it.
 No. The one-year lock is tied to when each reward was paid, not to when you
 unstake.
 
-**Do locked rewards keep earning once I've unstaked?**
+**Do staked tokens still earn rewards?**
 
-No. Tokens scheduled for unstaking stop earning immediately. If you want them to
-keep compounding, leave them staked — but every reward you keep earning starts a
-fresh one-year lock of its own.
+No. The pool pays no rewards since the migration, whether the tokens are staked
+or not.
 
 **Do I need to unstake again to collect rewards as they unlock?**
 
