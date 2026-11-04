@@ -17,14 +17,12 @@ question often asked by depositors: _Why do my token rewards take longer to
 withdraw than the tokens I deposited?_
 
 <!-- prettier-ignore -->
-::: danger DAO Dashboard retirement
+::: danger DAO Dashboard and DAO Tracker retirement
 The DAO Dashboard stays online until the end of March 2028, with only unstake, withdraw, and
 undelegate available. This is a result of the [DAO migration primary proposal #17](https://ivory-general-mouse-678.mypinata.cloud/ipfs/bafybeihrqolxtycbb4oadz5phdvrk6d2m3z6etfcj663mon242qeox26dq) which ends staking pool rewards.
+The [DAO Tracker](https://tracker.api3.org/) stays up over the same period for an overview of your pool status and activity.
 Your tokens are never lost: unstaking and withdrawing stay possible at any time by calling the pool contract directly, with or without the dashboard.
 :::
-
-Use the [DAO Tracker](https://tracker.api3.org/), until the end of March 2028,
-for an overview of your pool status and activity.
 
 ## The two clocks
 
@@ -69,8 +67,8 @@ Before you start.
    this promptly — if you wait too long after the timer ends, you may have to
    initiate again and wait another seven days.
 
-Your tokens are now unstaked and sitting in your pool **Balance**. They are not
-yet in your wallet.
+Your tokens are now unstaked and sitting in your pool balance. They are not yet
+in your wallet.
 
 ### Step 2 — Withdraw
 
