@@ -154,7 +154,7 @@ small balance it rarely makes sense to collect weekly. Common approaches:
 ### Alex's timeline at a glance
 
 ```
-STEP 1 — UNSTAKE
+STEP 1 - UNSTAKE
 Oct 29, 2026   Initiate Unstake ──┐
                                   │  7-day wait
 Nov 5, 2026    Unstake ───────────┘
@@ -180,11 +180,10 @@ own one-year anniversary before Step 2 can release it.
 No. The one-year lock is tied to when each reward was paid, not to when you
 unstake.
 
-**Do locked rewards keep earning once I've unstaked?**
+**Do staked tokens still earn rewards?**
 
-No. Tokens scheduled for unstaking stop earning immediately. If you want them to
-keep compounding, leave them staked — but every reward you keep earning starts a
-fresh one-year lock of its own.
+No. The pool pays no rewards since the migration, whether the tokens are staked
+or not.
 
 **Do I need to unstake again to collect rewards as they unlock?**
 
