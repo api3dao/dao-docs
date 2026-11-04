@@ -37,14 +37,14 @@ most common source of "where are my tokens?" questions.
 
 The 7-day clock starts automatically once the Initiate Unstake transaction is
 confirmed. The 1-year clock is long, and it is already **running separately for
-every weekly reward** you have ever received — you cannot start it, speed it up,
+every weekly reward** you have ever received - you cannot start it, speed it up,
 or reset it by unstaking.
 
 Rewards were minted into the pool once a week (on Thursdays) and automatically
 staked, so they compounded along with your deposit. The pool pays no rewards
 since the migration, and the last reward was minted on October 29, 2026. Each
 week's reward unlocks one year from the day it was paid. This is a **rolling
-unlock**, not a single anniversary — even after exactly one year of staking,
+unlock**, not a single anniversary - even after exactly one year of staking,
 only your _oldest_ reward has unlocked. The other 51 weeks' worth are still
 locked, each with its own date.
 
@@ -57,20 +57,19 @@ Before you start.
   the unstake, come back after seven days to unstake, and withdraw in the same
   visit.
 
-### Step 1 — Unstake
+### Step 1 - Unstake
 
 1. On the DAO Dashboard, click **Initiate Unstake**, choose the amount (or
    **Max**), and confirm the transaction in your wallet.
 2. A 7-day countdown starts once the transaction is confirmed. The tokens still
    count as voting power on Snapshot during the wait.
-3. When the countdown ends, click **Unstake** and confirm the transaction. Do
-   this promptly — if you wait too long after the timer ends, you may have to
-   initiate again and wait another seven days.
+3. When the countdown ends, click **Unstake** and confirm the transaction. There
+   is no deadline, the unstake stays available until you do it.
 
 Your tokens are now unstaked and sitting in your pool balance. They are not yet
 in your wallet.
 
-### Step 2 — Withdraw
+### Step 2 - Withdraw
 
 1. Look at the **Withdrawable** figure in the Balance section. This is the
    amount you can take out right now: your deposit plus any rewards that have
@@ -106,10 +105,10 @@ timeline is identical for everyone.
 |                                                    | Amount        |
 | -------------------------------------------------- | ------------- |
 | Original deposit                                   | 1,000.00      |
-| Rewards earned (53 weekly payments, ~5.8–7.8 each) | ~357.85       |
+| Rewards earned (53 weekly payments, ~5.8-7.8 each) | ~357.85       |
 | **Total staked**                                   | **~1,357.85** |
 
-### Step 1 — Unstake
+### Step 1 - Unstake
 
 Thu Oct 29, 2026: Alex sends **Initiate Unstake** with **Max**. The 7-day
 countdown starts once the transaction is confirmed.
@@ -117,7 +116,7 @@ countdown starts once the transaction is confirmed.
 Thu Nov 5, 2026: the countdown ends. Alex sends **Unstake**. Once it is
 confirmed, everything is unstaked and sitting in Alex's pool Balance.
 
-### Step 2 — Withdraw
+### Step 2 - Withdraw
 
 Thu Nov 5, 2026, first withdrawal. The Dashboard shows:
 
@@ -133,7 +132,7 @@ but roughly 352 tokens of rewards are still waiting. Nothing is lost, they are
 simply on the 1-year clock.
 
 From November 2026 to October 2027 the rewards unlock week by week. Every
-Thursday, about 6–8 more tokens are added to **Withdrawable**. Of the ~352
+Thursday, about 6-8 more tokens are added to **Withdrawable**. Of the ~352
 locked tokens, approximately:
 
 | By this date     | Unlocked since Nov 5 (ready to withdraw) | Still locked |
@@ -157,15 +156,15 @@ balance it rarely makes sense to collect weekly. Common approaches:
 ### Alex's timeline at a glance
 
 ```
-STEP 1 — UNSTAKE
+STEP 1 - UNSTAKE
 Oct 29, 2026   Initiate Unstake ──┐
                                   │  7-day wait
 Nov 5, 2026    Unstake ───────────┘
 
-STEP 2 — WITHDRAW
+STEP 2 - WITHDRAW
 Nov 5, 2026    Withdraw ~1,005.79   ← deposit + oldest reward
                │
-               │  ~6–8 tokens unlock every Thursday
+               │  ~6-8 tokens unlock every Thursday
                ▼
 Oct 29, 2027   Last reward unlocks → Withdraw the remaining ~352
 ```
