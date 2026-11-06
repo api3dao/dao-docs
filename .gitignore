@@ -13,3 +13,6 @@ yarn-error.log
 package-lock.json
 firebase-debug.log
 libs/myGitHubToken.json
+
+# Claude Code preview server config
+.claude/launch.json
