@@ -8,7 +8,7 @@ module.exports = [
         link: '/',
       },
       {
-        text: 'Guide: Unstake and Withdraw',
+        text: 'Guide: Exiting the Staking Pool',
         link: '/overview/guide-unstake-withdraw',
       },
       {
