@@ -17,7 +17,7 @@ and the [current DAO documentation](https://docs.api3.org/dao/) covers it. The
 staking pool no longer mints rewards. The DAO Dashboard stays online until the
 end of March 2028 with only unstake, withdraw and undelegate available. If you
 have tokens in the pool, read the
-[Guide: Unstake and Withdraw](/overview/guide-unstake-withdraw).
+[Guide: Exiting the Staking Pool](/overview/guide-unstake-withdraw).
 
 :::
 
