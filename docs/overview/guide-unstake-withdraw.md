@@ -1,9 +1,7 @@
 ---
 title: API3
 pageHeader: Overview
-description:
-  How to exit the API3 staking pool with the DAO Dashboard, and why rewards take
-  a year to unlock.
+description: How to exit the API3 staking pool with the DAO Dashboard.
 outline: [2, 3]
 ---
 
